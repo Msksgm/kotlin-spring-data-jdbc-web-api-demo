@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class KotlinSpringDataJdbcWebApiDemoApplication
 
 fun main(args: Array<String>) {
+	@Suppress("SpreadOperator")
 	runApplication<KotlinSpringDataJdbcWebApiDemoApplication>(*args)
 }
